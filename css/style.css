@@ -1,0 +1,129 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: #6FC790 4px solid;
+  font-family: 'Playfair Display', serif;
+  color: #FFFFFF;
+  /*HEADER*/
+  /*SECTION*/ }
+  body header {
+    background: rgba(23, 21, 24, 0.7); }
+    body header #logo-text img {
+      margin-top: 35px;
+      width: 40%; }
+    body header #logo-text p {
+      color: #999999;
+      font-size: 12px; }
+    body header nav #navigation-bar {
+      text-decoration: none;
+      list-style-type: none; }
+      body header nav #navigation-bar li {
+        float: left;
+        margin: 40px 5px 0 5px; }
+        body header nav #navigation-bar li a {
+          font-size: 90%;
+          color: #FFFFFF;
+          padding: 10px 20px; }
+        body header nav #navigation-bar li :hover {
+          background-color: #6FC790;
+          border-radius: 10px;
+          text-decoration: none; }
+    body header .carousel-item .slide-text {
+      width: 30%;
+      margin: 200px 0 200px 200px;
+      float: left; }
+      body header .carousel-item .slide-text p {
+        margin-bottom: 30px;
+        color: #999999; }
+      body header .carousel-item .slide-text a {
+        color: #FFFFFF;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #6FC790;
+        border-radius: 10px; }
+    body header .carousel-item .slide-image {
+      width: 30%;
+      margin: 50px 200px 50px 200px;
+      float: right; }
+  body section .four-img-menu {
+    margin-top: 60px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid black; }
+    body section .four-img-menu a {
+      text-decoration: none; }
+      body section .four-img-menu a .white-div {
+        background-color: #FFFFFF;
+        color: black;
+        padding: 10px 30px;
+        text-align: center; }
+      body section .four-img-menu a .white-div:hover {
+        background-color: #6FC790;
+        color: #FFFFFF; }
+    body section .four-img-menu a:hover {
+      text-decoration: none; }
+  body section .six-img-menu {
+    padding-top: 40px; }
+    body section .six-img-menu .whole-image-div {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center; }
+      body section .six-img-menu .whole-image-div img {
+        display: block;
+        border: 4px solid #FFFFFF;
+        width: 100%; }
+      body section .six-img-menu .whole-image-div img:hover {
+        border-color: #6FC790; }
+  body footer {
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #313131; }
+    body footer .post-footer-wrapper {
+      margin-top: 40px;
+      margin-bottom: 40px; }
+      body footer .post-footer-wrapper h5 {
+        color: #6FC790; }
+      body footer .post-footer-wrapper p {
+        color: #999999; }
+      body footer .post-footer-wrapper a {
+        color: #6FC790; }
+      body footer .post-footer-wrapper a:hover {
+        text-decoration: none;
+        color: #999999; }
+      body footer .post-footer-wrapper ul {
+        list-style-type: none;
+        padding-left: 0; }
+        body footer .post-footer-wrapper ul li {
+          padding-bottom: 10px;
+          border-bottom: 1px solid rgba(71, 71, 71, 0.74);
+          margin-bottom: 10px; }
+      body footer .post-footer-wrapper ul li:before {
+        content: "\00BB"; }
+      body footer .post-footer-wrapper p span {
+        color: #6FC790; }
+      body footer .post-footer-wrapper .input-field-form {
+        border: none;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        background: #222222;
+        color: #999999;
+        height: 30px;
+        width: 100%; }
+      body footer .post-footer-wrapper .message-field {
+        height: auto; }
+      body footer .post-footer-wrapper .submit-button {
+        border: none;
+        border-radius: 10px;
+        background-color: #6FC790;
+        padding: 5px 10px;
+        text-transform: uppercase; }
+    body footer .container-footer-border {
+      border-top: 3px solid #222222; }
+      body footer .container-footer-border .footer-col {
+        margin-top: 20px; }
+        body footer .container-footer-border .footer-col .copyright {
+          float: left; }
+        body footer .container-footer-border .footer-col .template-data {
+          float: right; }

@@ -1,0 +1,229 @@
+$primary-color: #FFFFFF;
+$secondary-color: #999999;
+$green-primary: #6FC790;
+
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: $green-primary 4px solid;
+  font-family: 'Playfair Display', serif;
+  color: $primary-color;
+
+  /*HEADER*/
+  header {
+    background: rgba(23, 21, 24, 0.7);
+
+    #logo-text {
+      img {
+        margin-top: 35px;
+        width: 40%;
+      }
+
+      p {
+        color: $secondary-color;
+        font-size: 12px;
+      }
+    }
+
+    nav {
+      #navigation-bar {
+        text-decoration: none;
+        list-style-type: none;
+
+        li {
+          float: left;
+          margin: 40px 5px 0 5px;
+
+          a {
+            font-size: 90%;
+            color: $primary-color;
+            padding: 10px 20px;
+          }
+
+          :hover {
+            background-color: $green-primary;
+            border-radius: 10px;
+            text-decoration: none;
+          }
+        }
+      }
+
+    }
+
+
+    .carousel-item {
+
+      .slide-text {
+        width: 30%;
+        margin: 200px 0 200px 200px;
+        float: left;
+
+        p {
+          margin-bottom: 30px;
+          color: $secondary-color;
+        }
+
+        a{
+          color: $primary-color;
+          padding: 10px 20px;
+          text-decoration: none;
+          background-color: $green-primary;
+          border-radius: 10px;
+        }
+      }
+
+      .slide-image {
+        width: 30%;
+        margin: 50px 200px 50px 200px;
+        float: right;
+      }
+    }
+  }
+
+  /*SECTION*/
+  section {
+    .four-img-menu {
+      margin-top: 60px;
+      padding-bottom: 50px;
+      border-bottom: 5px solid black;
+
+
+    a {
+      text-decoration: none;
+
+      .white-div {
+        background-color: $primary-color;
+        color: black;
+        padding: 10px 30px;
+        text-align: center;
+
+      }
+
+      .white-div:hover {
+        background-color: $green-primary;
+        color: $primary-color;
+      }
+    }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+
+    }// end of four img menu
+
+    .six-img-menu {
+      padding-top: 40px;
+
+      .whole-image-div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+
+        img {
+          display: block;
+          border: 4px solid $primary-color;
+          width: 100%;
+        }
+
+        img:hover {
+          border-color: $green-primary;
+        }
+      }
+    }// end of six img menu
+
+  }// end of section
+
+  footer {
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #313131;
+
+    .post-footer-wrapper {
+      margin-top: 40px;
+      margin-bottom: 40px;
+
+      h5 {
+        color: $green-primary;
+      }
+
+      p {
+        color: $secondary-color;
+      }
+
+      a {
+        color: $green-primary;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: $secondary-color;
+      }
+
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+          padding-bottom: 10px;
+          border-bottom: 1px solid rgba(71, 71, 71, 0.74);
+          margin-bottom: 10px;
+        }
+      }
+
+      ul li:before {
+        content: "\00BB";
+      }
+
+      p span {
+        color: $green-primary;
+      }
+
+      .input-field-form {
+        border: none;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        background: #222222;
+        color: $secondary-color;
+        height: 30px;
+        width: 100%;
+      }
+
+      .message-field {
+        height: auto;
+      }
+
+      .submit-button {
+        border: none;
+        border-radius: 10px;
+        background-color: $green-primary;
+        padding: 5px 10px;
+        text-transform: uppercase;
+      }
+
+    }// end of the post-footer-wrapper
+
+    .container-footer-border {
+      border-top: 3px solid #222222;
+
+      .footer-col {
+        margin-top: 20px;
+
+        .copyright {
+          float: left;
+        }
+
+        .template-data {
+          float: right;
+        }
+
+      }
+    }// end of container-footer-border
+
+  }// end of footer
+
+}// end of body
+
